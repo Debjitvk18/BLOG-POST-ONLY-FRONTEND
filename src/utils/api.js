@@ -1,4 +1,4 @@
-const BASE_URL = process.env.REACT_APP_API_URL + "/api";
+const BASE_URL = "https://my-backend-v4yb.onrender.com";
 
 
 /* ----------------------------- TOKEN HELPERS ----------------------------- */
