@@ -2,7 +2,7 @@ const BASE_URL = import.meta.env.VITE_API_URL + "/api";
 
 
 /* ----------------------------- TOKEN HELPERS ----------------------------- */
-export const getAccessToken = () => localStorage.getItem("accessToken");
+  export const getAccessToken = () => localStorage.getItem("accessToken");
 export const getRefreshToken = () => localStorage.getItem("refreshToken");
 
 export const setTokens = (accessToken, refreshToken) => {
